@@ -10,9 +10,9 @@ html {
   color: #113c00;
 }
 
-a {
-  color: #568c36;
-  text-decoration: none;
+.news a {
+  color: #000;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -39,6 +39,10 @@ a:hover {
 .nav a:hover {
   background-color: #fff;
   color: #113c00;
+}
+
+.nav a:focus {
+  background-color: #fff;
 }
 
 .about {
